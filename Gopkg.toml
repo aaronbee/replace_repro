@@ -1,0 +1,9 @@
+[[constraint]]
+  name = "golang.org/x/tools"
+  branch = "master"
+
+[[override]]
+  # Waiting for https://github.com/golang/tools/pull/138 to merge.
+  name = "golang.org/x/tools"
+  branch = "printf_result"
+  source = "github.com/aaronbee/tools"
